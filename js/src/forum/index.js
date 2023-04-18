@@ -13,12 +13,15 @@ app.initializers.add('kiddo/flarum-traditional-rank-icons', () => {
     if (groups == false) {
         return ;
     }
-
-    badges.forEach((badge) => {
-      // clear all original badge
-      badges.remove(badge);
-    });
-
+    
+    
+    if (typeof badges !=  'undefined') {
+      badges.forEach((badge) => {
+        // clear all original badge
+        badges.remove(badge);
+      });
+    }
+  
     groups.forEach((group) => {
       items.add(`group${group?.id()}`, <RankBadge group={group} />);
     });
