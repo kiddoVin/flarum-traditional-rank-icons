@@ -10,6 +10,10 @@ app.initializers.add('datlechin/flarum-traditional-rank-icons', () => {
     const items = new ItemList();
     const groups = this.groups();
 
+    if (groups == false) {
+        return ;
+    }
+
     groups.forEach((group) => {
       items.add(`group${group?.id()}`, <RankBadge group={group} />);
     });

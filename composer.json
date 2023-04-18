@@ -1,5 +1,5 @@
 {
-    "name": "datlechin/flarum-traditional-rank-icons",
+    "name": "kiddo/flarum-traditional-rank-icons",
     "description": "Replace cirle badges with rank-styled badges.",
     "keywords": [
         "flarum",
@@ -11,7 +11,7 @@
         "flarum/core": "^1.2"
     },
     "support": {
-        "source": "https://github.com/datlechin/flarum-traditional-rank-icons",
+        "source": "https://github.com/kiddoVin/flarum-traditional-rank-icons",
         "forum": "https://discuss.flarum.org/d/29978"
     },
     "authors": [
