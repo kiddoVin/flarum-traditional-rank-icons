@@ -16,7 +16,7 @@ app.initializers.add('kiddo/flarum-traditional-rank-icons', () => {
     
     
    
-    badges.toArray.forEach((badge) => {
+    badges.toArray().forEach((badge) => {
       // clear all original badge
       badges.remove(badge);
     });
